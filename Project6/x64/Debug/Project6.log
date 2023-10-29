@@ -1,0 +1,29 @@
+﻿  main.cpp
+C:\Users\murza\source\repos\Project6\Project6\GDIwsa.h(9,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\murza\source\repos\Project6\Project6\GDIwsa.h(57,46): warning C4805: ==: небезопасное смешение типа "BOOL" и типа "bool" в операции
+C:\Users\murza\source\repos\Project6\Project6\GDIwsa.h(84,42): warning C4805: ==: небезопасное смешение типа "BOOL" и типа "bool" в операции
+C:\Users\murza\source\repos\Project6\Project6\GDIwsa.h(85,46): warning C4805: ==: небезопасное смешение типа "BOOL" и типа "bool" в операции
+C:\Users\murza\source\repos\Project6\Project6\GDIwsa.h(90,15): warning C4244: return: преобразование "SIZE_T" в "int", возможна потеря данных
+C:\Users\murza\source\repos\Project6\Project6\GDIwsa.h(308,18): warning C4312: приведение типов: преобразование из "int" в "LPCTSTR" большего размера
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2584,17): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\murza\source\repos\Project6\Project6\main.cpp(36,12): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\murza\source\repos\Project6\Project6\main.cpp(36,12): message : см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "ConvTCHARtoSTR"
+  Project6.vcxproj -> C:\Users\murza\source\repos\Project6\x64\Debug\build 0.0.2.exe
