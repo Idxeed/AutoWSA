@@ -1,0 +1,474 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "В качестве параметра _Param_(2) передан объект, хотя при вызове \"printf\" требуется строка; фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 5,
+                  "endLine": 104,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_pos_rep",
+                  "decoratedName": "?create_pos_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Неверный оператор."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 8,
+                  "endLine": 122,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_neg_rep",
+                  "decoratedName": "?create_neg_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "В качестве параметра _Param_(2) передан объект, хотя при вызове \"printf\" требуется строка; фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 5,
+                  "endLine": 123,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_neg_rep",
+                  "decoratedName": "?create_neg_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Неверный оператор."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 8,
+                  "endLine": 139,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_nos_rep",
+                  "decoratedName": "?create_nos_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "В качестве параметра _Param_(2) передан объект, хотя при вызове \"printf\" требуется строка; фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 5,
+                  "endLine": 140,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_nos_rep",
+                  "decoratedName": "?create_nos_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Неверный оператор."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 8,
+                  "endLine": 156,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_critical_neg_rep",
+                  "decoratedName": "?create_critical_neg_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "В качестве параметра _Param_(2) передан объект, хотя при вызове \"printf\" требуется строка; фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 5,
+                  "endLine": 158,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_reg::create_critical_neg_rep",
+                  "decoratedName": "?create_critical_neg_rep@subcore_graphUnit_reg@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6273",
+          "message": {
+            "text": "Нецелое число передается как _Param _ (2), когда целое число требуется для вызова \"printf\". Фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 5,
+                  "endLine": 288,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_pos_rep",
+                  "decoratedName": "?create_pos_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Неверный оператор."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 306,
+                  "startColumn": 8,
+                  "endLine": 306,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_neg_rep",
+                  "decoratedName": "?create_neg_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6273",
+          "message": {
+            "text": "Нецелое число передается как _Param _ (2), когда целое число требуется для вызова \"printf\". Фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 307,
+                  "startColumn": 5,
+                  "endLine": 307,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_neg_rep",
+                  "decoratedName": "?create_neg_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Неверный оператор."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 8,
+                  "endLine": 323,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_nos_rep",
+                  "decoratedName": "?create_nos_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6273",
+          "message": {
+            "text": "Нецелое число передается как _Param _ (2), когда целое число требуется для вызова \"printf\". Фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 324,
+                  "startColumn": 5,
+                  "endLine": 324,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_nos_rep",
+                  "decoratedName": "?create_nos_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Неверный оператор."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 8,
+                  "endLine": 339,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_critical_neg_rep",
+                  "decoratedName": "?create_critical_neg_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6273",
+          "message": {
+            "text": "Нецелое число передается как _Param _ (2), когда целое число требуется для вызова \"printf\". Фактический тип: \"class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+                },
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 5,
+                  "endLine": 341,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "subcore_graphUnit_inst::create_critical_neg_rep",
+                  "decoratedName": "?create_critical_neg_rep@subcore_graphUnit_inst@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Функция использует байты стека \"65580\".  Рассмотрите возможность перемещения некоторых данных в кучу."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Source.cpp"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GetUserNameQ",
+                  "decoratedName": "?GetUserNameQ@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Graph.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e48dddf31b9dc1df8cee5937a0a36e57b63585fb8324a565711e4c54c06503d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/murza/source/repos/AutorannerWSA/AutorannerWSA/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4dbfd269136c14daa6b438a47d0d36e1f43c73d68d1618498c3728764cb95c40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/murza/source/repos/autorannerwsa/autorannerwsa/header.h"
+          },
+          "hashes": {
+            "sha-256": "f0105132bfce533222f96cc03dc6121d93374e73e56881fef5121dd1c51d1549"
+          }
+        }
+      ]
+    }
+  ]
+}
